@@ -1,0 +1,52 @@
+* {
+    font-family: 'Inter', sans-serif
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+.table th, .table td, .table tfoot {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+#footer{
+    font-weight: bold;
+    background-color: beige;
+}
+
+.header {
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+}
+
+#first-line{
+    font-weight: bold;
+    background-color: beige;
+}
+
+/* animation */
+tr {
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: red;
+    transition: all 0.5s ease;
+    text-decoration: underline;
+}
+
+#first-line:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s ease;
+}
