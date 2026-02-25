@@ -1,5 +1,5 @@
 * {
-    font-family: 'Inter', sans-serif
+    font-family: 'Inter', sans-serif;
 }
 
 .table {
@@ -26,6 +26,11 @@
 
 h1{
     text-align: center;
+}
+
+h2 {
+    margin: 2px;
+    margin-left: 10px;
 }
 
 #first-line{
